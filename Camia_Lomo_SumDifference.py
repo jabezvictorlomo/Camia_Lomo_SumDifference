@@ -6,13 +6,13 @@ number2 = int(input("Enter second number: "))
 
 def calculate_sum():
     global number1, number2, addition
-    # LOCAL VARIABLES
+    # LOCAL VARIABLE - ADDITION
     addition = number1 + number2
     print("Sum: ", addition)
 
 def calculate_difference():
     global number1, number2, subtraction
-    # LOCAL VARIABLES
+    # LOCAL VARIABLE - SUBTRACTION
     subtraction = number1 - number2
     print("Difference: ", subtraction)
 
