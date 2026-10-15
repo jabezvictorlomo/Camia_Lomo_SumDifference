@@ -1,8 +1,8 @@
 # GLOBAL VARIABLES
 addition = []
 subtraction = []
-number1 = int(input("Enter first number: "))
-number2 = int(input("Enter second number: "))
+number1 = float(input("Enter first number: "))
+number2 = float(input("Enter second number: "))
 
 def calculate_sum():
     global number1, number2, addition
